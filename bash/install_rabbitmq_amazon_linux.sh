@@ -1,3 +1,6 @@
+# https://github.com/rabbitmq/erlang-rpm/releases
+# https://www.rabbitmq.com/install-rpm.html
+# Install and setup rabbitmq on Amazon Linux.
 sudo yum install wget
 wget https://github.com/rabbitmq/erlang-rpm/releases/download/v19.3.0/erlang-19.3.0-1.el6.x86_64.rpm
 sudo yum install ./erlang-19.3.0-1.el6.x86_64.rpm 
