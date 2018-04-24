@@ -1,3 +1,4 @@
+" to install plugins, install Vundle and then run :PluginInstall in vim. git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
