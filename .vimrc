@@ -1,5 +1,6 @@
 " to install plugins, install Vundle and then run :PluginInstall in vim. git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " to install youcompleteme follow instructions at: https://github.com/Valloric/YouCompleteMe/blob/master/README.md#ubuntu-linux-x64
+" all plugins are installed at ~/.vim/bundle/
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
