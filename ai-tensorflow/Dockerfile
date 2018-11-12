@@ -1,7 +1,7 @@
 FROM ubuntu
 
-ENV http_proxy=http://ajalalian:Mrsn0ur18@webisa.greater.com.au:8080
-ENV https_proxy=http://ajalalian:Mrsn0ur18@webisa.greater.com.au:8080
+ENV http_proxy=http://username:pass@webisa.greater.com.au:8080
+ENV https_proxy=http://username:pass@webisa.greater.com.au:8080
 ENV DEBIAN_FRONTEND=noninteractive
 
 
