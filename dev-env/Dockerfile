@@ -5,7 +5,7 @@ ENV https_proxy=http://username:pass@webisa.greater.com.au:8080
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && apt-get upgrade -y
-RUN apt-get install build-essential cmake git unzip pkg-config libopenblas-dev liblapack-dev -y
+RUN apt-get install build-essential cmake git unzip pkg-config libopenblas-dev liblapack-dev vim -y
 
 RUN git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ADD .vimrc /root/.vimrc
